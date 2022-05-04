@@ -1,6 +1,6 @@
 package src;
 
-public class Thread1 extends Thread {
+public class Thread1 implements Runnable {
     private final int threadNumber;
     public Thread1 (int threadNumber){
         this.threadNumber = threadNumber;
